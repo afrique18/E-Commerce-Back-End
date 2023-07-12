@@ -37,8 +37,9 @@ Product.init(
       model:'category',
       key: 'id',
     }
-  }
-},
+  },
+  },
+
 
 
   {
