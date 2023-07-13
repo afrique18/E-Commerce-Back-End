@@ -72,7 +72,7 @@ router.delete('/:id', async (req, res) => {
       },
     });
     if (!deleteCategory) {
-      res.status(404).json({'creation failed!'});
+      res.status(404).json({ message: 'creation failed!'});
       return;
     }
     return res.status(200).json(deleteCategory)
