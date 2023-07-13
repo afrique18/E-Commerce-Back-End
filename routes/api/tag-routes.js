@@ -73,7 +73,23 @@ res.status(200).json(tagData)
 } catch (err) {
   res.status(500).json(err);
 }
-router.delete('/:id', (req, res) => {
+});
+
+router.delete('/:id', async (req, res) => {
+  try {
+    const tagData = Tag.destroy({ 
+      where: {id: req.params.id,
+      },
+    });
+
+    if (!tagData) {
+      res.status(404).json({ 'No tag found with this id'});
+      return;
+    }
+    return res.status(200).json(tagData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
   // delete on tag by its `id` value
 });
 
