@@ -16,8 +16,9 @@ To install and use the application, follow these steps:
 - Run 'npm start' in the CLI to start the server
 - Use Insomnia to interact with the available API routes
   
-  ## Mockup
-[link](https://watch.screencastify.com/v/5ZMsLW7Ykcs1SsC3L2mU)
+## Mockup
+
+[Walkthrough link](https://watch.screencastify.com/v/5ZMsLW7Ykcs1SsC3L2mU)
 
 ## Technologies Used
 
