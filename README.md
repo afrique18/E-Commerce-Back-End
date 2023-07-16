@@ -17,9 +17,8 @@ To install and use the application, follow these steps:
 - Use Insomnia to interact with the available API routes
   
   ## Mockup
+[link](https://watch.screencastify.com/v/5ZMsLW7Ykcs1SsC3L2mU)
 
-
-  
 ## Technologies Used
 
 - Node.js
